@@ -1,0 +1,38 @@
+Files Included:
+1 - index.html: Homepage of the website
+2 - hobbit.html: Page dedicated to "The Hobbit"
+3 - lotr.html: Page dedicated to "The Lord of the Rings"
+4 - silmarillion.html: Page dedicated to "The Silmarillion"
+5 - script.js
+6 - styles.css
+7 - images folder: Contains images related to each book.
+
+HTML Tags Used:
+1 - <html>: Did not use Bootstrap classes.
+2 - <head>: Included the Bootstrap documentation and links to the JS and CSS files.
+3 - <body>: Used Bootstrap to change the default font to PT Serif.
+4 - <nav>: Utilized one of Bootstrap's defaults and customized it, including a dropdown button for navigation to each page, ensuring an organized navigation structure.
+5 - <div>: Used Bootstrap to create a grid layout, employing row and column classes to achieve the intended layout.
+6 - <a>: Used Bootstrap to style it as a button without using the actual tag.
+7 - <ul>: Beneficially used Bootstrap to apply "justify-content: space-between" more easily.
+8 - <li>: Employed Bootstrap classes to style it in the dropdown, nav, and footer, providing a clean way to organize items.
+9 - <section>: Used Bootstrap to divide the content of the HTML files and container classes to ensure responsiveness across different screen types.
+10 - <h1>: Used Bootstrap class display to enhance the text appearance, also utilized the fs property to avoid using px values for compatibility across devices.
+11 - <p>: Applied Bootstrap classes such as lead, italic, text-muted, display, and fs to assign various functions to different texts.
+12 - <img>: Utilized Bootstrap to round and make images responsive to the height and width of parent elements, ensuring responsiveness with "img-fluid".
+13 - <button>: Utilized Bootstrap to enhance appearance and encourage user interaction.
+14 - <footer>: Used a customized Bootstrap footer, including <a> tags with symbols to enhance clickability and lead users to contact information.
+
+CSS Properties Used: (only used when Bootstrap was too complex or conflicting)
+
+margin: Ensured a clean website layout without cluttering elements in one place.
+font-family: Used to change the default font and another for the nav and footer.
+padding: Ensured proper page division.
+background-color: Changed default Bootstrap colors.
+color: Enhanced contrast.
+text-shadow: Implemented to create outlined fonts.
+background-image: Cleaner implementation in CSS for background images.
+
+JavaScript file:
+
+Used a event listener where activates when the mouse is over the cards and turns off when it's not. This makes the card bigger, smoothly.
