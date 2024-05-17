@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 3.125vw 0;
+}
+
+.outline {
+    color: white;
+    text-shadow:
+    -2px -2px 0 #a09158,
+    2px -2px 0 #a09158,
+    -2px 2px 0 #a09158,
+    2px 2px 0 #B2A262;
+}
+
+.outline > .fs-2 {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #a09158,
+    1px -1px 0 #a09158,
+    -1px 1px 0 #a09158,
+    1px 1px 0 #B2A262;
+}
+
+#navbar {
+    min-height: 10vh;
+}
+
+.fullheight {
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+}
+
+.section, #navbar, #buy {
+    background-color: #dfd5ac;
+}
+
+.card {
+    background-color: #efead5;
+}
+
+#tolkien_img {
+    max-width: 65%;
+    max-height: 65%;
+}
+
+.partial-border{
+    position: relative;
+}
+
+.partial-border::before {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: #d7cb98;
+    position: absolute;
+    top: 0;
+}
+
+#welcome_section_hobbit {
+    background-image: url(images/hobbit0.jpeg);
+    background-position: center;
+}
+
+#welcome_section_lotr {
+    background-image: url(images/lotr4.jpeg);
+    background-position: center;
+}
+
+#welcome_section_silmarillion {
+    background-image: url(images/silmarillion5.jpeg);
+    background-position: center;
+}
+
+.fullheight {
+    background-image: url(images/tolkien1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row.align-items-stretch > div > .d-flex {
+    height: 100%;
+}
+
+#buy, footer, nav{
+    font-family: -apple-system, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
